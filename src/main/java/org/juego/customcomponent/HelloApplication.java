@@ -23,7 +23,7 @@ public class HelloApplication extends Application {
 
         // 3. Configuramos la escena
         Scene scene = new Scene(root, 320, 240);
-        stage.setTitle("Mi Custom Component!");
+        stage.setTitle("Custom Component");
         stage.setScene(scene);
         stage.show();
     }
