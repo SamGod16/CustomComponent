@@ -3,15 +3,14 @@
 
 @import "{{ site.theme }}";
 
-/* Esto hace que el cuerpo sea más ancho (aprox 1200px) */
-.main-content {
-  max-width: 1800px !important;
-  padding: 2rem 4rem !important;
+/* EN MERLOT, LA CAJA SE LLAMA .inner */
+.inner {
+  max-width: 1400px !important; /* Aquí controlas el ancho máximo */
+  width: 90% !important;        /* Ocupará el 90% de la pantalla si es menor */
+  margin: 0 auto !important;
 }
 
-/* Ajuste para que el encabezado también se estire */
-header {
-  width: 1800px !important;
-  max-width: 100% !important;
-  margin: 0 auto !important;
+/* Ajuste para que el texto no se pegue a los bordes si la pantalla es pequeña */
+#main_content {
+  padding-top: 2rem;
 }
