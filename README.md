@@ -104,13 +104,13 @@ La fiabilidad es clave. Este componente incluye una batería de pruebas automati
    ```
 3. **Realiza tus cambios y haz el commit** (intenta ser descriptivo):
 
-```Bash
-git commit -m "Añade: Nueva animación de rotación"
-```
+   ```Bash
+   git commit -m "Añade: Nueva animación de rotación"
+   ```
 4. **Sube tus cambios** a tu rama:
 
-```
-Bash
-git push origin feature/nueva-funcionalidad
-```
+   ```
+   Bash
+   git push origin feature/nueva-funcionalidad
+   ```
 5. **Abre un Pull Request** en este repositorio original explicando tus mejoras.
