@@ -1,8 +1,17 @@
 ---
-imports:
-  - jekyll-theme-merlot
 ---
-.container {
-  max-width: 1200px; /* Aquí controlas el ancho */
-  width: 90%;
+
+@import "{{ site.theme }}";
+
+/* Esto hace que el cuerpo sea más ancho (aprox 1200px) */
+.main-content {
+  max-width: 1200px !important;
+  padding: 2rem 4rem !important;
+}
+
+/* Ajuste para que el encabezado también se estire */
+header {
+  width: 1200px !important;
+  max-width: 100% !important;
+  margin: 0 auto !important;
 }
